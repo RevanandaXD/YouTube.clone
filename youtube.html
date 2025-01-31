@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube.com clone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/video.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+</head>
+<body>
+    <header class="header">
+        <div class="left-section">
+            <img class="hamburger-menu" src="icons/hamburger-menu.svg" alt="bar">
+            <img class="youtube-logo" src="icons/youtube-logo.svg" alt="logo">
+        </div>
+        <div class="middle-section">
+            <input class="search-bar" type="text" placeholder="Search">
+            <button class="search-button">
+                <img src="icons/search.svg" alt="search">
+                <div class="tooltip">Search</div>
+            </button>
+            <button class="voice-search-button">
+                <img class="voice-icon" src="icons/voice-search-icon.svg" alt="voice">
+                <div class="tooltip">Search with your voice</div>
+            </button>
+        </div>
+        <div class="rights-section">
+            <div class="upload-icon-container">
+                <img class="upload-icon" src="icons/upload.svg" alt="upload">
+                <div class="tooltip">Create</div>
+            </div>
+            <div class="youtube-app-icon-container">
+                <img class="youtube-app-icon" src="icons/youtube-apps.svg" alt="app">
+                <div class="tooltip">YouTube apps</div>
+            </div>
+            <div class="notifications-icon-container">
+                <img class="notifications-icon" src="icons/notifications.svg" alt="notifications">
+                <div class="notifications-count">
+                    3
+                </div>
+                <div class="tooltip">notifications</div>
+            </div>
+            <img class="channel-icon" src="channel-picture/Profil.jpg" alt="profil">
+        </div>
+    </header>
+
+    <nav class="sidebar">
+        <div class="sidebar-link">
+            <img src="icons/home.svg" alt="home">
+            <div>Home</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="icons/explore.svg" alt="">
+            <div>Explore</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="icons/subscriptions.svg" alt="">
+            <div>Subscription</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="icons/originals.svg" alt="">
+            <div>Originals</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="icons/youtube-music.svg" alt="">
+            <div>YouTube Music</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="icons/library.svg" alt="">
+            <div>Library</div>
+        </div>
+    </nav>
+
+    <main class="video-grid">
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <a href="https://youtu.be/2b1BiBSLCqg?si=_GGFRBuSHH8obUsU">
+                    <img class="thumbnail" src="thumbnails/thumbnails-1.jpg">
+                </a>
+                <div class="video-time">
+                    4.39
+                </div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <a href="https://www.youtube.com/@ArknightsOfficialYostar">
+                        <img class="profile-picture" src="channel-picture/profile-picture.jpg">
+                    </a>
+                    <div class="preview-container">
+                        <img class="channel-preview" src="channel-picture/profile-picture.jpg">
+                        <div class="text-box">
+                            <p class="channel-name">
+                                ArknightsOfficialYostar
+                            </p>
+                            <p class="subsriber-count">
+                                323k subscriber
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                    </a>
+                <div class="video-info">
+                    <a href="https://www.youtube.com/@ArknightsOfficialYostar">
+                        <p class="video-title">
+                            Arknights EP - <strong>[Crystallize]</strong>
+                        </p>
+                    </a>
+                    <a href="https://www.youtube.com/@ArknightsOfficialYostar">
+                        <p class="video-author">
+                            Arknights Official - Yostar
+                        </p>
+                    </a>
+                    <p class="video-stats">
+                        873k views &#183 3 years ago
+                    </p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <a href="https://youtu.be/h9Z4oGN89MU?si=2f6ErgpKmrNe_6ik">
+                    <img class="thumbnail" src="thumbnails/thumbnails-2.jpg">
+                </a>
+                <div class="video-time">
+                    28.30
+                </div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <a href="https://www.youtube.com/@BranchEducation"><img class="profile-picture" src="channel-picture/profile-picture2.jpg">
+                    </a>
+                    <div class="preview-container">
+                        <img class="channel-preview" src="channel-picture/profile-picture2.jpg">
+                        <div class="text-box">
+                            <p class="channel-name">
+                                Branch Education
+                            </p>
+                            <p class="subsriber-count">
+                                2.2 milion subsriber
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-info">
+                    <a href="https://youtu.be/h9Z4oGN89MU?si=2f6ErgpKmrNe_6ik">
+                        <p class="video-title">
+                            How do Graphics Cards Work? Exploring GPU Architecture
+                        </p>
+                    </a>
+                    <a href="https://www.youtube.com/@BranchEducation">
+                        <p class="video-author">
+                            Branch Education
+                        </p>
+                    </a>
+                    <p class="video-stats">
+                        3m views &#183 3 month ago
+                    </p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <a href="https://youtu.be/tsAudpIsO4k?si=SD3lsC-Lisv0vyX-">
+                    <img class="thumbnail" src="thumbnails/thumbnails-3.jpg">
+                </a>
+                <div class="video-time">
+                    5.49
+                </div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <a href="https://www.youtube.com/@optimumtech">
+                        <img class="profile-picture" src="channel-picture/profile-picture3.jpg">
+                    </a>
+                </div>
+                <div class="video-info">
+                    <a href="https://youtu.be/tsAudpIsO4k?si=SD3lsC-Lisv0vyX-">
+                        <p class="video-title">
+                            The fastest GTX GPU is now $132
+                        </p>
+                    </a>
+                    <a href="https://www.youtube.com/@optimumtech">
+                        <p class="video-author">
+                            optimum
+                        </p>
+                    </a>
+                    <p class="video-stats">
+                        2m views &#183 6 month ago 
+                    </p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <a href="https://youtu.be/LvYf6E8llEs?si=_L8MKpzpjmh1XfpT">
+                    <img class="thumbnail" src="thumbnails/thumbnails-4.jpg">
+                </a>
+                <div class="video-time">
+                    0.32
+                </div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <a href="https://www.youtube.com/@ghost_tank">
+                        <img class="profile-picture" src="channel-picture/profile-picture4.jpg">
+                    </a>
+                </div>
+                <div class="video-info">
+                    <a href="https://youtu.be/LvYf6E8llEs?si=_L8MKpzpjmh1XfpT">
+                        <p class="video-title">
+                            T-90 MS edit
+                        </p>
+                    </a>
+                    <a href="https://www.youtube.com/@ghost_tank">
+                        <p class="video-author">
+                            Ghosti
+                        </p>
+                    </a>    
+                    <p class="video-stats">
+                        755k views &#183 1 years ago
+                    </p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <a href="https://youtu.be/EU2xgn350EM?si=_shNV2gCJh6w4N73">
+                    <img class="thumbnail" src="thumbnails/thumbnails-5.jpg">
+                </a>
+                <div class="video-time">
+                    24:35
+                </div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <a href="https://www.youtube.com/@tahmidahmed-yt">
+                        <img class="profile-picture" src="channel-picture/profile-picture5jpg.jpg">
+                    </a>
+                </div>
+                <div class="video-info">
+                    <a href="https://youtu.be/EU2xgn350EM?si=_shNV2gCJh6w4N73">
+                        <p class="video-title">
+                            Animating Responsive Website Using HTML And CSS Step-by-step
+                        </p>
+                    </a>
+                    <a href="https://www.youtube.com/@tahmidahmed-yt">
+                        <p class="video-author">
+                            Tahmid Ahmed
+                        </p>
+                    </a>
+                    <p class="video-stats">
+                        111k views &#183 10 month ago
+                    </p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <a href="https://youtu.be/omWmWu1XO8U?si=DQAFv47fCyIHg6O5">
+                    <img class="thumbnail" src="thumbnails/thumbnails-6.jpg">
+                </a>
+                <div class="video-time">
+                    8.28
+                </div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <a href="https://www.youtube.com/@LamaDev">
+                        <img class="profile-picture" src="channel-picture/profile-picture6.jpg">
+                    </a>
+                </div>
+                <div class="video-info">
+                    <a href="https://youtu.be/omWmWu1XO8U?si=DQAFv47fCyIHg6O5">
+                        <p class="video-title">
+                            Do You Really Need Bootstrap or Tailwind?
+                        </p>
+                    </a>
+                    <a href="https://www.youtube.com/@LamaDev">
+                        <p class="video-author">
+                            Lama Dev
+                        </p>
+                    </a>
+                    <p class="video-stats">
+                        208k views &#183 2 years ago
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <a href="https://youtu.be/2b1BiBSLCqg?si=_GGFRBuSHH8obUsU">
+                    <img class="thumbnail" src="thumbnails/thumbnails-1.jpg">
+                </a>
+                <div class="video-time">
+                    4.39
+                </div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <a href="https://www.youtube.com/@ArknightsOfficialYostar">
+                        <img class="profile-picture" src="channel-picture/profile-picture.jpg">
+                    </a>
+                    <div class="preview-container">
+                        <img class="channel-preview" src="channel-picture/profile-picture.jpg">
+                        <div class="text-box">
+                            <p class="channel-name">
+                                ArknightsOfficialYostar
+                            </p>
+                            <p class="subsriber-count">
+                                323k subscriber
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                    </a>
+                <div class="video-info">
+                    <a href="https://www.youtube.com/@ArknightsOfficialYostar">
+                        <p class="video-title">
+                            Arknights EP - <strong>[Crystallize]</strong>
+                        </p>
+                    </a>
+                    <a href="https://www.youtube.com/@ArknightsOfficialYostar">
+                        <p class="video-author">
+                            Arknights Official - Yostar
+                        </p>
+                    </a>
+                    <p class="video-stats">
+                        873k views &#183 3 years ago
+                    </p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <a href="https://youtu.be/h9Z4oGN89MU?si=2f6ErgpKmrNe_6ik">
+                    <img class="thumbnail" src="thumbnails/thumbnails-2.jpg">
+                </a>
+                <div class="video-time">
+                    28.30
+                </div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <a href="https://www.youtube.com/@BranchEducation"><img class="profile-picture" src="channel-picture/profile-picture2.jpg">
+                    </a>
+                    <div class="preview-container">
+                        <img class="channel-preview" src="channel-picture/profile-picture2.jpg">
+                        <div class="text-box">
+                            <p class="channel-name">
+                                Branch Education
+                            </p>
+                            <p class="subsriber-count">
+                                2.2 milion subsriber
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-info">
+                    <a href="https://youtu.be/h9Z4oGN89MU?si=2f6ErgpKmrNe_6ik">
+                        <p class="video-title">
+                            How do Graphics Cards Work? Exploring GPU Architecture
+                        </p>
+                    </a>
+                    <a href="https://www.youtube.com/@BranchEducation">
+                        <p class="video-author">
+                            Branch Education
+                        </p>
+                    </a>
+                    <p class="video-stats">
+                        3m views &#183 3 month ago
+                    </p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <a href="https://youtu.be/tsAudpIsO4k?si=SD3lsC-Lisv0vyX-">
+                    <img class="thumbnail" src="thumbnails/thumbnails-3.jpg">
+                </a>
+                <div class="video-time">
+                    5.49
+                </div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <a href="https://www.youtube.com/@optimumtech">
+                        <img class="profile-picture" src="channel-picture/profile-picture3.jpg">
+                    </a>
+                </div>
+                <div class="video-info">
+                    <a href="https://youtu.be/tsAudpIsO4k?si=SD3lsC-Lisv0vyX-">
+                        <p class="video-title">
+                            The fastest GTX GPU is now $132
+                        </p>
+                    </a>
+                    <a href="https://www.youtube.com/@optimumtech">
+                        <p class="video-author">
+                            optimum
+                        </p>
+                    </a>
+                    <p class="video-stats">
+                        2m views &#183 6 month ago 
+                    </p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <a href="https://youtu.be/LvYf6E8llEs?si=_L8MKpzpjmh1XfpT">
+                    <img class="thumbnail" src="thumbnails/thumbnails-4.jpg">
+                </a>
+                <div class="video-time">
+                    0.32
+                </div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <a href="https://www.youtube.com/@ghost_tank">
+                        <img class="profile-picture" src="channel-picture/profile-picture4.jpg">
+                    </a>
+                </div>
+                <div class="video-info">
+                    <a href="https://youtu.be/LvYf6E8llEs?si=_L8MKpzpjmh1XfpT">
+                        <p class="video-title">
+                            T-90 MS edit
+                        </p>
+                    </a>
+                    <a href="https://www.youtube.com/@ghost_tank">
+                        <p class="video-author">
+                            Ghosti
+                        </p>
+                    </a>    
+                    <p class="video-stats">
+                        755k views &#183 1 years ago
+                    </p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <a href="https://youtu.be/EU2xgn350EM?si=_shNV2gCJh6w4N73">
+                    <img class="thumbnail" src="thumbnails/thumbnails-5.jpg">
+                </a>
+                <div class="video-time">
+                    24:35
+                </div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <a href="https://www.youtube.com/@tahmidahmed-yt">
+                        <img class="profile-picture" src="channel-picture/profile-picture5jpg.jpg">
+                    </a>
+                </div>
+                <div class="video-info">
+                    <a href="https://youtu.be/EU2xgn350EM?si=_shNV2gCJh6w4N73">
+                        <p class="video-title">
+                            Animating Responsive Website Using HTML And CSS Step-by-step
+                        </p>
+                    </a>
+                    <a href="https://www.youtube.com/@tahmidahmed-yt">
+                        <p class="video-author">
+                            Tahmid Ahmed
+                        </p>
+                    </a>
+                    <p class="video-stats">
+                        111k views &#183 10 month ago
+                    </p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <a href="https://youtu.be/omWmWu1XO8U?si=DQAFv47fCyIHg6O5">
+                    <img class="thumbnail" src="thumbnails/thumbnails-6.jpg">
+                </a>
+                <div class="video-time">
+                    8.28
+                </div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <a href="https://www.youtube.com/@LamaDev">
+                        <img class="profile-picture" src="channel-picture/profile-picture6.jpg">
+                    </a>
+                </div>
+                <div class="video-info">
+                    <a href="https://youtu.be/omWmWu1XO8U?si=DQAFv47fCyIHg6O5">
+                        <p class="video-title">
+                            Do You Really Need Bootstrap or Tailwind?
+                        </p>
+                    </a>
+                    <a href="https://www.youtube.com/@LamaDev">
+                        <p class="video-author">
+                            Lama Dev
+                        </p>
+                    </a>
+                    <p class="video-stats">
+                        208k views &#183 2 years ago
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
